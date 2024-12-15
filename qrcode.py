@@ -11,6 +11,6 @@ def generate_qr_code(url, filename='website.png'):
     qr_image.save(filename)
     return filename
 if __name__ == "__main__":
-    website_url = "https://perimeter-visitor.vercel.app/"
+    website_url = "url link"
     qr_code_path = generate_qr_code(website_url)
     print(f"QR Code generated: {qr_code_path}")
